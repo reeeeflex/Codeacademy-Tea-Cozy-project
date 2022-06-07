@@ -136,6 +136,7 @@ figcaption {
   height: 200px;
   margin-top: 2rem;
   line-height: 4rem;
+  text-align: center;
 }
 
 .copyright {
