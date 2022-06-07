@@ -8,21 +8,23 @@
     <title>Tea Cozy</title>
   </head>
   <body>
+    <!-- header element for the navbar and logo of the website-->
     <header>
       <figure class="logo">
         <img src="images/img-tea-cozy-logo.png" alt="tea cozy logo" />
       </figure>
+      <!-- navbar element with ul for better website navigation -->
       <nav class="navbar">
         <ul class="navbar-selections">
-          <li class="mission"><a href="#">Mission</a></li>
-          <li class="featured-tea"><a href="#">Featured Tea</a></li>
-          <li class="locations"><a href="#">Locations</a></li>
+          <li class="mission"><a href="#mission">Mission</a></li>
+          <li class="featured-tea"><a href="#featured-tea">Featured Tea</a></li>
+          <li class="locations"><a href="#location">Locations</a></li>
         </ul>
       </nav>
     </header>
     <!-- background with a black box in between with hero text -->
     <main class="banner">
-      <section class="mission-section">
+      <section class="mission-section" id="mission">
         <h2>Our Mission</h2>
         <h4>
           Handpicked, Artisanally, Curated, Free Range, Substainable, Small
@@ -30,32 +32,48 @@
         </h4>
       </section>
     </main>
-    <div class="container">
+    <!-- contains all of the teas in featured tea with semantic HTML -->
+    <div class="container" id="featured-tea">
       <h2>Tea of the Month</h2>
       <h4>What's Steeping at The Tea Cozy?</h4>
       <div class="cards">
         <div class="card">
-          <img src="images/img-berryblitz.jpeg" alt="Berry Blitz Tea" />
-          <figcaption><h4>Fall Berry Blitz Tea</h4></figcaption>
+          <!-- semantic figure element for easier readability -->
+          <figure>
+            <img src="images/img-berryblitz.jpeg" alt="Berry Blitz Tea" />
+            <figcaption><h4>Fall Berry Blitz Tea</h4></figcaption>
+          </figure>
         </div>
         <div class="card">
-          <img src="images/img-spiced-rum.jpeg" alt="Spiced Rum Tea" />
-          <figcaption><h4>Spiced Rum Tea</h4></figcaption>
+          <figure>
+            <img src="images/img-spiced-rum.jpeg" alt="Spiced Rum Tea" />
+            <figcaption><h4>Spiced Rum Tea</h4></figcaption>
+          </figure>
         </div>
         <div class="card">
-          <img src="images/img-donut.jpeg" alt="Seasonal Donuts" />
-          <figcaption><h4>Seasonal Donuts</h4></figcaption>
+          <figure>
+            <img src="images/img-donut.jpeg" alt="Seasonal Donuts" />
+            <figcaption><h4>Seasonal Donuts</h4></figcaption>
+          </figure>
         </div>
         <div class="card">
-          <img src="images/img-myrtle-ave.jpeg" alt="Myrtle Ave Tea" />
-          <figcaption><h4>Myrtle Ave Tea</h4></figcaption>
+          <figure>
+            <img src="images/img-myrtle-ave.jpeg" alt="Myrtle Ave Tea" />
+            <figcaption><h4>Myrtle Ave Tea</h4></figcaption>
+          </figure>
         </div>
         <div class="card">
-        <img src="images/img-bedford-bizarre.jpeg" alt="Bedford Bizarre Tea" />
-        <figcaption><h4>Bedford Bizarre Tea</h4></figcaption>
+          <figure>
+            <img
+              src="images/img-bedford-bizarre.jpeg"
+              alt="Bedford Bizarre Tea"
+            />
+            <figcaption><h4>Bedford Bizarre Tea</h4></figcaption>
+          </figure>
+        </div>
       </div>
     </div>
-    <section class="location">
+    <section class="location" id="location">
       <h2>Locations</h2>
       <div class="location-container">
         <div class="downtown">
@@ -79,11 +97,11 @@
       </div>
     </section>
     <footer>
-    <div class="contact">
-      <h2>The Tea Cozy</h2>
-      <h5>contact@theteacozy.com</h5>
-      <p>917-555-8904</p>
-    </div>
+      <div class="contact">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <p>917-555-8904</p>
+      </div>
       <p class="copyright">Copyright&copy; The Tea Cozy 2022</p>
     </footer>
   </body>
